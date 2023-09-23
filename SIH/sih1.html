@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .header{
+        justify-content: center;
+        align-content: center;
+    }
+    .list{
+        display: block;
+        text-align: justify;
+        height: 50px;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    .items{
+        margin-bottom: 10px;
+        justify-content: space-between;
+    }
+    nav button:hover, nav:visited:hover{
+        background-color: red;
+    }
+    #image1, #image2, #image3, #image4, #image5{
+        display: none;
+        justify-content: center;
+        padding: 5px;
+        height: 100px;
+        width: 100px;
+    }
+</style>
+<body>
+    <div class="header">
+        <h1>Select the kind of Relief Assistance you require....<br></h1>
+        <p>
+            <div class="list">
+            <ul>
+                <div class="items">
+                <button onclick="hideShow1()"><li>Fire Aid and Disaster Response</li></button><br>
+                <button onclick="hideShow2()"><li>Ambulance Service</li></button><br>
+                <button onclick="hideShow3()"><li>Police Stations</li></button><br>
+                <button onclick="hideShow4()"><li>Animal Rescue Help</li></button><br>
+                <button onclick="hideShow5()"><li>Disaster Management Open Shelters</li></button><br>
+                </div>
+            </ul>
+            </div>
+        </p>
+    </div>
+    <div id="image1"><img src="Map1.png" alt=""></div>
+    <div id="image2"><img src="Map2.png" alt=""></div>
+    <div id="image3"><img src="Map4.png" alt=""></div>
+    <div id="image4"><img src="Map3.png" alt=""></div>
+    <div id="image5"><img src="Map5.png" alt=""></div>
+    <script src="sih1.js"></script>
+</body>
+</html>
