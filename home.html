@@ -8,8 +8,11 @@
   </head>
   <body>
     <div class="nav">
-                <img src="safehaven.png" alt="" class="img-hmo">       
-            </div>
+      <img src="safehaven.png" alt="" class="img-hmo">
+      <a href="volunteer-signin.html" class="volunteer-link">Volunteer</a>
+      <a href="#crowdfunding" class="donate-link">Donate</a>
+    </div>
+    
             <div class="header">Access information about <br>relief agency <span class="hc"><span id="dynamic-text" class="word-animation"></span></span>
               <div class="sub-header">Get in touch with the nearby rescue
                 agencies according to the type of assistance
@@ -19,33 +22,79 @@
             
         <div class="agency-portal">
           <div class="agency-header">Learn more about agencies:</div>
-          <div></div>
-          <img src="agency.webp" alt="" class="img-agency">  
-          <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sit minima ratione commodi ex repellendus quos aperiam, nemo dolores veritatis doloribus accusamus assumenda quasi id officiis eveniet reprehenderit consectetur at voluptatibus. Aspernatur perferendis quisquam alias tenetur amet molestiae provident delectus saepe, impedit repellendus est, nihil quaerat eligendi ipsam maxime quos.</div>
-          <button class="agency-btn">Agency Login</button> 
+          
+          <div class="agency">
+          <img src="agency-img.webp" alt="" class="img-agency">  
+          <p>
+            <br>
+            "Agency registration on our platform serves as a pivotal step to establish a stronger connection with those in need and enhance the efficiency of coordinated relief efforts. Our website's registration functionality empowers agencies to efficiently manage their resources while enabling them to offer real-time updates on crucial information, including emergency situations, weather conditions, available resources, and other critical details. This capability ensures a more effective and organized response to disasters and emergencies."</p>
+          <!-- Inside your HTML file -->
+          <button class="agency-btn"><a href="agency-signin.html">Agency Portal</a></button>
+
+          </p>
         </div>
+        
 
         <hr>
 
         <div class="user-portal">
-          <div class="agency-header">User</div>
+          <div class="user-header">User</div>
           <div></div>
-          <img src="agency.webp" alt="" class="img-agency">  
-          <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sit minima ratione commodi ex repellendus quos aperiam, nemo dolores veritatis doloribus accusamus assumenda quasi id officiis eveniet reprehenderit consectetur at voluptatibus. Aspernatur perferendis quisquam alias tenetur amet molestiae provident delectus saepe, impedit repellendus est, nihil quaerat eligendi ipsam maxime quos.</div>
-          <button class="agency-btn">User Site</button>
-        </div>
+          <div class="agency">
+            <img src="user.png" alt="" class="img-user">  
+            <p>
+              <br>
+              "Keep yourself updated with real time emergency situations around you through push notifications and enjoy access to better customer support and community engagements. Get to know about nearby rescue centres and the resources available in real time."</p>
+            <!-- Inside your HTML file -->
+              <button class="agency-btn"><a href="user-signin.html">User Portal</a></button>
+ 
+            </p>
+          </div>
 
         <hr>
 
-        <div class="funding-portal">
-          <div class="agency-header">Crowdfunding</div>
+        <div class="funding-portal" id="crowdfunding">
+          <div class="funding-header">Crowdfunding</div>
           <div></div>
-          <img src="agency.webp" alt="" class="img-agency">  
-          <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sit minima ratione commodi ex repellendus quos aperiam, nemo dolores veritatis doloribus accusamus assumenda quasi id officiis eveniet reprehenderit consectetur at voluptatibus. Aspernatur perferendis quisquam alias tenetur amet molestiae provident delectus saepe, impedit repellendus est, nihil quaerat eligendi ipsam maxime quos.</div>
-          <button class="agency-btn">Donate</button>
+          <div class="agency">
+            <img src="fund (2).png" alt="" class="img-fund">  
+            <p>
+              <br>
+              "Crowdfunding campaigns empower individuals worldwide to contribute funds and provide crucial support to various causes. Agencies can to create and manage these campaigns, allowing people to make donations to raise funds for disaster relief, calamity recovery, or any other charitable endeavor aimed at assisting affected communities." </p>
+            <button class="agency-btn fund-btn">Funding Portal</button> 
+            </p>
+          </div>
           
         </div>
+
+        
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <p>&copy; 2023 SafeHaven. All rights reserved.</p>
+              </div>
+              <div class="col-md-6">
+                <ul class="social-icons">
+                  <li><a href="#"><img src="facebook-icon.png" alt="Facebook"></a></li>
+                  <li><a href="#"><img src="twitter-icon.png" alt="Twitter"></a></li>
+                  <li><a href="#"><img src="instagram-icon.png" alt="Instagram"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Get Updates</h4>
+                <p>Subscribe to our newsletter to receive the latest updates and news.</p>
+                <form action="#" method="post" class="subscribe-form">
+                  <input type="email" name="email" placeholder="Enter your email" required>
+                  <button type="submit">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </footer>
+        
         <script src="main.js"></script>
   </body>
 </html>
-

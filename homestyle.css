@@ -4,14 +4,35 @@ margin-top: 12px;
 }
 
 .nav{
-    position: sticky;
+    /* position: relative; */
     padding: 7px 0 7px 0;
-    margin-left: 0px;
     background: #fff;
     width: 100%;
     box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
 }
-
+.volunteer-link {
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    margin-right: 10px; 
+    font-weight: bold; 
+    position: absolute;
+    right: 10px; 
+    margin: 15px;
+    padding: 10px;
+  }
+  .donate-link {
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    margin-right: 10px; 
+    font-weight: bold; 
+    position: absolute;
+    right: 200px; 
+    margin: 15px;
+    padding: 10px;
+  }
+  
 .header{
     font-size: 46px;
     line-height: 60px;
@@ -43,11 +64,21 @@ margin-top: 12px;
     padding: 20px;
 }
 
-.img-agency{
-float:right;
-
+.funding-header{
+    font-size: 34px;
+    line-height: 60px;
+    font-family:'Times New Roman', Times, serif; 
+    padding: 20px;
 }
 
+.user-header{
+    font-size: 34px;
+    line-height: 60px;
+    font-family:'Times New Roman', Times, serif; 
+    padding: 20px;
+    text-align: end;
+    margin-right: 200px;
+}
 .word-animation {
     animation: slideUp 1s ease-in-out;
   }
@@ -70,11 +101,46 @@ float:right;
 }
 
 .agency-portal{
-    padding: 20px;
-    margin:10px;
+    padding: 50px;
+    margin-left:40px;
 }
 
 .user-portal{
     padding: 20px;
     margin:10px;
+    margin-top: 20px;
 }
+.funding-portal{
+    padding: 50px;
+    margin:10px;
+    margin-top: 20px;
+}
+.agency{
+    float: left;
+    
+}
+.agency p{
+
+}
+.img-agency{
+float:right;
+margin-top: -5%;
+width: 500px;
+}
+.img-user{
+float:left;
+margin-top: -5%;
+width: 540px;
+}
+.img-fund{
+    float:right;
+    margin-top: -15%;
+    margin-left: -25%;
+    }
+
+p{
+    font-size: 20px;
+}
+
+
+
